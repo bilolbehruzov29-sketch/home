@@ -169,7 +169,117 @@ a:hover {
     font-weight: 600;
 }
 
+.div1 {
+    max-width: 100%;
+    height: 500px;
+    margin: auto;
+    color: white;    
+    background: rgb(43, 43, 43);
+}
 
+.div2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.div4 {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.div5 {
+    display: flex;
+    list-style: none;
+}
+
+.div5 li {
+    margin-right: 20px;
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.div6 {
+    border: 0;
+    border-top: 1px solid #333333;
+    margin-bottom: 30px;
+}
+
+.div7 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.div8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.div9 {
+    background-color: #222222;
+    border: 1px solid #444444;
+    width: 280px;
+    height: 90px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div9 p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.div11 {
+    font-size: 24px;
+}
+
+.div12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ff6b00;
+}
+
+.div14 {
+    font-size: 11px;
+    color: #666666;
+}
+
+.div15 {
+    font-size: 20px;
+}
+
+.div16 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 130px;
+    color: #ff6b00;
+    margin-bottom: 10px;
+}
+
+.div23 {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 400px;
+}
 
 @media (max-width: 430px) {
     .rfv {
@@ -236,5 +346,27 @@ a:hover {
     }
     .tgb{
         display: none;
+    }
+    .div8{
+        display: block;
+    }
+    .div1{
+        width: 100%;
+        height: 1100px;
+    }
+    .div3{
+        width: 90%;
+        display: block;
+    }
+    .div8{
+        margin: auto;
+    }
+    .div9{
+        margin: auto;
+    }
+    .div23{
+        margin: auto;
+        display: block;
+        margin-top: 50px;
     }
 }
